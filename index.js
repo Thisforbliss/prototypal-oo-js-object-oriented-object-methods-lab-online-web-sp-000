@@ -9,7 +9,12 @@ class BoardMember {
     this.approve = function(){
       return "You can do that!"
     }
-    
+    this.doCharity = function(){
+      return " You will see great things from Scruber."
+    }
+    this.releasePressStatement = function(){
+      
+    }
   }
 
 }
