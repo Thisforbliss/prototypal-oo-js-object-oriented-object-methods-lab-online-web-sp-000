@@ -10,10 +10,10 @@ class BoardMember {
       return "You can do that!"
     }
     this.doCharity = function(){
-      return " You will see great things from Scruber."
+      return "You will see great things from Scruber."
     }
     this.releasePressStatement = function(){
-      
+      return " "
     }
   }
 
