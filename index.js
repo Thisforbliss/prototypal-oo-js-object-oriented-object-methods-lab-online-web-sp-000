@@ -10,11 +10,14 @@ class BoardMember {
       return "You can do that!"
     }
     this.doCharity = function(){
-      return "You will see great things from Scruber."
+      return "I like to help people."
     }
     this.releasePressStatement = function(){
-      return " "
+      return "You will see great things from Scruber."
     }
+    this.sayHi = function(){
+      `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
+    
   }
 
 }
