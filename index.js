@@ -7,6 +7,5 @@ class BoardMember {
   
    veto(){ 
      console.log("No, I must disagree")
-      
   }
 }
