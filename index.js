@@ -4,7 +4,7 @@ class BoardMember {
     this.homeState = homeState
     this.training = training
     this.veto = function(){
-     console.log("return No, I must disagree") 
+     return"return No, I must disagree"
     }
   }
 
